@@ -25,3 +25,6 @@ i.e.   `MJSFontList.hasFont('Times New Roman') -> True`.
 If the font metric of two fonts is the same, then one of the fonts was drawn with a fallback font, as isn't avaliable.
 This is how `hasFont` works.
    
+###Demo
+a very simple page showing the current avaliable fonts as a list.
+[demo](http://generalsarsby.github.io/MJSFontList/)
