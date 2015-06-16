@@ -3,13 +3,13 @@ var fallbackFonts = ['sans-serif','serif','monospace','cursive'];//,'fantasy']; 
 //however some of these might not be included ether.
 //some of the most common fonts. don't want a massive list. just enought of the popular ones.
 var testFonts = ["Arial", "Arial Black", "Baskerville", "Batang", "Big Caslon", "Book Antiqua",
- "Brush Script MT", "Calibri", "Candara", "Century Gothic", "Charcoal", "Comic Sans MS",
- "Copperplate", "Courier", "Didot", "Droid Sans", "Droid Serif",
+ "Brush Script MT", "Calibri", "Candara", "Century Gothic", "Charcoal", "Comic Sans MS","Computer Modern","cmr10",
+ "Copperplate", "Courier", "DejaVu Sans","DejaVu Sans Mono","DejaVu Serif", "Didot", "Droid Sans","Droid Sans Mono", "Droid Serif",
  "Franklin Gothic Medium", "Futura", "Gadget", "Garamond", "Geneva", "Georgia",
- "Goudy Old Style", "Helvetica", "Impact", "Lato", "Lora", "Lucida Console",
+ "Goudy Old Style", "Helvetica", "Impact", "Latin Modern Roman","Latin Modern Mono","Latin Modern Sans", "Lato", "Lora", "Lucida Console",
  "Lucida Grande", "Lucida Sans Unicode", "Monaco", "Open Sans Condensed", "Oswald",
  "PT Sans", "Palatino", "Palatino Linotype", "Roboto", "Rockwell", "Rockwell Extra Bold",
- "Segoe UI", "Source Sans Pro", "Tahoma", "Times New Roman", "Trebuchet MS", "Ubuntu-Title",
+ "Segoe UI", "Source Sans Pro", "Tahoma", "Times New Roman", "Trebuchet MS", "Ubuntu","Ubuntu-Title","Ubuntu Mono",
  "Verdana", "cursive"];
 
 function hashCode(s) {
