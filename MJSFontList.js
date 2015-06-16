@@ -52,9 +52,9 @@ for (var i = 0;i<fallbackFonts.length;i++){
 	fallbackHashes.push(getFontMetric(fallbackFonts[i]))
 }
 var workingFonts = fallbackFonts;
-for (var i=0;i<fonts.length;i++){
-	if ( hasFont(fonts[i]) ){
-		workingFonts.push(fonts[i]);
+for (var i=0;i<testFonts.length;i++){
+	if ( hasFont(testFonts[i]) ){
+		workingFonts.push(testFonts[i]);
 	}
 }
 
